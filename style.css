@@ -1,0 +1,37 @@
+.heading{
+    font-size: medium;
+    width: 100%;
+    margin: 0;
+    box-shadow: 5px 5px 30px black;
+}
+.note{
+    font-size: medium;
+    color: red;
+}
+.footer{
+    position:fixed;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    background-color: coral;
+    line-height:3;
+    text-align: center;
+}
+body{
+    background-image: url(https://media.istockphoto.com/vectors/graph-paper-grid-lines-green-background-and-yellow-lines-vector-id1136215847?k=20&m=1136215847&s=170667a&w=0&h=0S8YihgLe345uohq00SCUeGd24Xjx1wX6Aqq9Dc6RzQ=);
+}
+canvas{
+    border: 5px solid red;
+    border-radius: 25px ;
+    animation-name:example;
+    animation-duration:6s;
+    animation-iteration-count:infinite;
+}
+@keyframes example{
+    from{
+        box-shadow: 5px 10px 30px black;
+    }
+    to{
+        box-shadow: 5px 10px 30px white;
+    }
+}
